@@ -1,0 +1,56 @@
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+h3{
+    color: #c2272d;
+}
+
+th {
+    background-color: #f3bc00;
+    color: black;
+}
+
+div#BannerHeader {
+    background-color: #c2272d;
+    height: 21px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+div#Logo {
+    background: url(images/logo.jpg);
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.pageData {
+    margin-bottom: 10px;
+}
+
+ul.pagination button {
+    background-color: white;
+    padding: 10px 16px;
+    font-size: 10px;
+    line-height: 1.3333333;
+    border: 1px solid lightgray;
+}
+
+ul.pagination button:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+ul.pagination button:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
